@@ -1,0 +1,69 @@
+.hero {
+  &__logo {
+    width: 10rem;
+  }
+}
+
+.first-section {
+  padding: 0 17rem;
+  background-image: url("../../images/bg-section-top-desktop-1.svg");
+
+  padding-bottom: 10rem;
+
+  &__info {
+    padding: 0 14rem;
+  }
+
+  &__info-wrapper {
+    gap: 20rem;
+  }
+
+  &__messages-info {
+    width: 100%;
+  }
+}
+
+.second-section {
+  &__first-img,
+  &__second-img,
+  &__third-img {
+    width: 25rem;
+  }
+
+  &__second-topic-wrapper {
+    background-image: url("../../images/bg-section-bottom-desktop-1.svg"),
+      url("../../images/bg-section-top-desktop-2.svg");
+  }
+
+  &__trial-wrapper {
+    background-image: url("../../images/bg-section-bottom-desktop-2.svg"),
+      url("../../images/bg-footer-top-desktop.svg");
+
+    padding-top: 15rem;
+  }
+
+  &__second-topic-wrapper {
+    padding: 10rem 8rem 15rem;
+    gap: 17rem;
+  }
+
+  &__first-topic-wrapper,
+  &__third-topic-wrapper {
+    padding: 0 8rem;
+    gap: 18rem;
+  }
+}
+
+.footer {
+  padding: 5rem 6rem;
+  &__contact-data-wrapper {
+    gap: 20rem;
+  }
+
+  &__subscription-info {
+    padding-right: 10rem;
+  }
+  &__form {
+    gap: 2rem;
+  }
+}

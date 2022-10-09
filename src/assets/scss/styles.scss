@@ -1,0 +1,178 @@
+@import "./abstracts/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "./abstracts/pink-btn";
+
+.hero {
+  margin-bottom: 6.5rem;
+
+  &__logo {
+    width: 6rem;
+  }
+}
+
+.hero__btn {
+  border-radius: 2rem;
+  border: 1px solid $lightPink;
+  color: $lightPink;
+  font-size: 0.7rem;
+  padding: 0.3rem 1.2rem;
+
+  &:visited {
+    color: $lightPink;
+  }
+}
+
+.first-section {
+  background-image: url("../images/bg-section-top-mobile-1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 0 2rem;
+
+  &__title {
+    font-family: "Poppins", sans-serif;
+    color: $veryDarkCyan;
+    margin-bottom: 2rem;
+  }
+
+  &__info {
+    margin-bottom: 2.5rem;
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  &__screen-img {
+    margin-bottom: 7rem;
+  }
+
+  &__messages-icon,
+  &__communities-icon {
+    width: 1.8rem;
+  }
+
+  &__communities-amount,
+  &__messages-amount {
+    font-size: 3.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+
+  &__communities-info {
+    margin-bottom: 6rem;
+  }
+
+  &__messages-info {
+    width: 6rem;
+    margin-bottom: 7rem;
+  }
+}
+
+.second-section {
+  background-color: $veryPaleBlue;
+  text-align: center;
+
+  &__first-img {
+    margin-top: 5rem;
+    margin-bottom: 4.4rem;
+    width: 75%;
+  }
+
+  &__second-img {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    width: 75%;
+  }
+
+  &__third-img {
+    margin-bottom: 5rem;
+    width: 75%;
+  }
+
+  &__second-topic-wrapper {
+    background-color: #fff;
+    background-image: url("../images/bg-section-bottom-mobile-1.svg"),
+      url("../images/bg-section-top-mobile-2.svg");
+    background-position: top, bottom;
+    background-size: contain, contain;
+    background-repeat: no-repeat;
+    padding-bottom: 13rem;
+  }
+
+  &__third-topic-wrapper {
+    padding-bottom: 5rem;
+  }
+
+  &__trial-wrapper {
+    background-image: url("../images/bg-section-bottom-mobile-2.svg"),
+      url("../images/bg-footer-top-mobile.svg");
+    background-size: contain, contain;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-color: #fff;
+    padding: 12rem 0 20rem;
+  }
+}
+
+.footer {
+  background-color: $veryDarkCyan;
+  color: #fff;
+  padding: 3rem 1rem 3rem 2rem;
+
+  &__submit-btn {
+    background-color: $pink;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding: 0.8rem 2.5rem;
+
+    &:hover {
+      background-color: $lightPink;
+    }
+  }
+
+  &__form {
+    margin-bottom: 6rem;
+    position: relative;
+  }
+
+  &__logo {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(91deg)
+      brightness(180%) contrast(101%);
+    width: 12rem;
+  }
+
+  &__social-media-wrapper {
+    display: flex;
+    gap: 1.2rem;
+  }
+
+  &__email-wrapper {
+    margin-bottom: 3rem;
+    position: relative;
+  }
+
+  &__email-input {
+    border: 0;
+
+    &:focus {
+      outline: 1px solid #ff8282;
+    }
+
+    &:focus + small {
+      opacity: 1;
+    }
+  }
+
+  &__email-check-message {
+    color: #ff8282;
+    position: absolute;
+    top: 3rem;
+    opacity: 0;
+  }
+}
+
+.fa-brands:hover {
+  color: rgb(0, 204, 255);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(299, 100%, 79%); }
