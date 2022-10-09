@@ -6,9 +6,9 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 ![](/design/desktop-preview.jpg)
 
-Link: 
+Link: https://fabulous-hamster-e9ca52.netlify.app/
 
-### Built with: https://fabulous-hamster-e9ca52.netlify.app/
+### Built with:
 
 - Parcel
 - Bootstrap
